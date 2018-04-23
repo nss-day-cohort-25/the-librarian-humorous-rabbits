@@ -7,7 +7,6 @@ if (!(isNaN(userId))) {
 } else if (userId === "librarian") {
   window.location = "/librarian.html"
 } else {
-  // console.log("else")
   const info = document.querySelector('#info')
   info.appendChild(createp("We don't recognize that card number. Please try again or see the librarian for a new card!"))
 }
